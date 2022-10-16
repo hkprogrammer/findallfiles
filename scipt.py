@@ -1,7 +1,7 @@
 import glob
 
 
-extentions = "csv"
+extentions = "csv" # change it to anything you need to find
 
 p = glob.glob(f"**/*.{extentions}",recursive=True)
 
